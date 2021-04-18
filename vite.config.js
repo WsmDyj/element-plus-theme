@@ -23,8 +23,8 @@ export default defineConfig({
   ],
   optimizeDeps: {
     include: [
-      'element-plus/lib/locale/lang/zh-cn',
-      'element-plus/lib/locale/lang/en_US'
+      'element-plus/lib/locale/lang/zh-cn.js',
+      'element-plus/lib/locale/lang/en.js'
     ]
   },
 })
